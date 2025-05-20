@@ -1,3 +1,10 @@
+# main.py
+# Main script to run the color analysis system
+
+import sys
+import user_interface as ui
+
+
 def print_usage():
     """Print usage information."""
     print("Usage: python main.py [option]")
@@ -13,7 +20,7 @@ def print_usage():
 def main():
     """Main function to run the color analysis system."""
     # Parse command line arguments
-    print_usage()
+    ui.run_interface()
 
 if __name__ == "__main__":
     main()
